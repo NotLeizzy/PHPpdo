@@ -1,0 +1,52 @@
+/* Page Background */
+body {
+    background: linear-gradient(135deg, #f0f2f5, #e4ebf5);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card Styling */
+.custom-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Form Title */
+.card-title {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Table Enhancements */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Amount Styling */
+td:nth-child(5) {
+    font-weight: 500;
+    color: #198754;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+    .custom-card {
+        margin-bottom: 20px;
+    }
+}
